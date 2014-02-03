@@ -1,0 +1,37 @@
+{
+  "name": "xir",
+  "version": "0.0.0",
+  "description": "Yet another Node.js web framework.",
+  "main": "./lib",
+  "bin": {
+    "xir": "./bin/xir"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rixtox/xir.git"
+  },
+  "keywords": [
+    "javascript",
+    "coffeescript",
+    "web",
+    "framework"
+  ],
+  "author": "Rix",
+  "license": "MIT",
+  "homepage": "https://github.com/rixtox/xir",
+  "bugs": {
+    "url": "https://github.com/rixtox/xir/issues"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.9.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
