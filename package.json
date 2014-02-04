@@ -1,8 +1,8 @@
 {
   "name": "xir",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yet another Node.js web framework.",
-  "main": "./lib",
+  "main": "./lib/xir",
   "bin": {
     "xir": "./bin/xir"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rixtox/xir.git"
+    "url": "git://github.com/nxv/xir.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   ],
   "author": "Rix",
   "license": "MIT",
-  "homepage": "https://github.com/rixtox/xir",
+  "homepage": "https://github.com/nxv/xir",
   "bugs": {
-    "url": "https://github.com/rixtox/xir/issues"
+    "url": "https://github.com/nxv/xir/issues"
   },
   "dependencies": {
     "optimist": "~0.6.0"

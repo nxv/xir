@@ -1,7 +1,7 @@
 header = """
   /**
    * Xir.js
-   * https://github.com/rixtox/xir
+   * https://github.com/nxv/xir
    *
    * Copyright 2014, Naiwei Zheng
    * Released under the MIT License
@@ -40,5 +40,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-concat'
   grunt.loadNpmTasks 'grunt-contrib-clean'
 
-  grunt.registerTask 'build', ['coffee', 'concat']
+  grunt.registerTask 'build', ['clean:js', 'coffee', 'concat']
   grunt.registerTask 'default', ['build']
